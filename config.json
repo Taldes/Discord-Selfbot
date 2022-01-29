@@ -1,0 +1,18 @@
+{
+    "token": "mfa.U7NDa7mlQxnU7SMtO9NXK4Owv4nMGLTkM1Hd0mOcZw_S4cD3xCAyphNIKzn__LqXk-OBiawrVbes3xVcMPcr",
+    "password": "",
+    "prefix": ">",   
+    
+    "nitro_sniper": true, 
+    "giveaway_sniper": true,
+    "slotbot_sniper": true,
+    "privnote_sniper": false,
+
+    "stream_url": "https://discord.gg/argent",
+    "tts_language": "en",
+
+    "bitly_key": "bitly-key-here",
+    "cat_key": "cat-key-here",
+    "weather_key": "weather-key-here",
+    "cuttly_key": "cuttly-key-here"
+}

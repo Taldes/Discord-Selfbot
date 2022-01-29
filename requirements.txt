@@ -1,0 +1,11 @@
+discord.py
+colorama
+numpy
+requests
+aiohttp
+pymongo
+selenium
+pyPrivnote
+gtts
+dnspython
+image
