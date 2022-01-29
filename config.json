@@ -1,5 +1,5 @@
 {
-    "token": "mfa.U7NDa7mlQxnU7SMtO9NXK4Owv4nMGLTkM1Hd0mOcZw_S4cD3xCAyphNIKzn__LqXk-OBiawrVbes3xVcMPcr",
+    "token": "token",
     "password": "",
     "prefix": ">",   
     
@@ -8,7 +8,7 @@
     "slotbot_sniper": true,
     "privnote_sniper": false,
 
-    "stream_url": "https://discord.gg/argent",
+    "stream_url": "",
     "tts_language": "en",
 
     "bitly_key": "bitly-key-here",
