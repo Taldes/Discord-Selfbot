@@ -9,3 +9,4 @@ pyPrivnote
 gtts
 dnspython
 image
+bs4
