@@ -1,6 +1,6 @@
 class SELFBOT():
     __linecount__ = 1933
-    __version__ = 1845
+    __version__ = 1689
      
 import discord, subprocess, sys, time, os, colorama, base64, codecs, datetime, io, random, numpy, datetime, smtplib, string, ctypes
 import urllib.parse, urllib.request, re, json, requests, webbrowser, aiohttp, dns.name, asyncio, functools, logging
@@ -144,13 +144,13 @@ def startprint():
                                                ░      ▒   ░     ░ ░ ░             
                                              
                         
-                       {Fore.WHITE}Alu #{SELFBOT.__version__} | {Fore.BLUE}Logged in as: {Alucard.user.name}#{Alucard.user.discriminator} {Fore.CYAN}| ID: {Fore.RED}{Alucard.user.id}   
+                       {Fore.WHITE}Taldes #{SELFBOT.__version__} | {Fore.BLUE}Logged in as: {Alucard.user.name}#{Alucard.user.discriminator} {Fore.CYAN}| ID: {Fore.RED}{Alucard.user.id}   
                        {Fore.CYAN}Privnote Sniper | {Fore.BLUE}{privnote}
                        {Fore.CYAN}Nitro Sniper | {Fore.BLUE}{nitro}
                        {Fore.CYAN}Giveaway Sniper | {Fore.BLUE}{giveaway}
                        {Fore.CYAN}SlotBot Sniper | {Fore.BLUE}{slotbot}
                        {Fore.CYAN}Prefix: {Fore.BLUE}{prefix}
-                       {Fore.CYAN}Creator: {Fore.BLUE}Alucard#1845
+                       {Fore.CYAN}Creator: {Fore.BLUE}Taldes#0872
     '''+Fore.RESET)
 
 def Clear():
