@@ -142,7 +142,7 @@ def startprint():
           
                                              
                         
-                       {Fore.WHITE}Taldes #{SELFBOT.__version__} | {Fore.BLUE}Logged in as: {Alucard.user.name}#{Alucard.user.discriminator} {Fore.CYAN}| ID: {Fore.RED}{Alucard.user.id}   
+                       {Fore.WHITE}Taldes {SELFBOT.__version__} | {Fore.BLUE}Logged in as: {Alucard.user.name}#{Alucard.user.discriminator} {Fore.CYAN}| ID: {Fore.RED}{Alucard.user.id}   
                        {Fore.CYAN}Privnote Sniper | {Fore.BLUE}{privnote}
                        {Fore.CYAN}Nitro Sniper | {Fore.BLUE}{nitro}
                        {Fore.CYAN}Giveaway Sniper | {Fore.BLUE}{giveaway}
@@ -163,7 +163,7 @@ def Init():
         token = config.get('token')
         try:
             Alucard.run(token, bot=False, reconnect=True)
-            os.system(f'title (Alucard Selfbot) - Version {SELFBOT.__version__}')
+            os.system(f'title (Taldes Selfbot) - Version {SELFBOT.__version__}')
         except discord.errors.LoginFailure:
             print(f"{Fore.RED}[ERROR] {Fore.YELLOW}Improper token has been passed"+Fore.RESET)
             os.system('pause >NUL')
@@ -484,7 +484,7 @@ async def on_connect():
         privnote = "Disabled"    
     
     startprint()
-    ctypes.windll.kernel32.SetConsoleTitleW(f'[Alucard #{SELFBOT.__version__}] | Logged in as {Alucard.user.name}')
+    ctypes.windll.kernel32.SetConsoleTitleW(f'[Taldes #{SELFBOT.__version__}] | Logged in as {Alucard.user.name}')
 
 @Alucard.command()
 async def clear(ctx): # b'\xfc'
