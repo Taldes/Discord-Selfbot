@@ -148,7 +148,7 @@ def startprint():
                        {Fore.CYAN}Giveaway Sniper | {Fore.BLUE}{giveaway}
                        {Fore.CYAN}SlotBot Sniper | {Fore.BLUE}{slotbot}
                        {Fore.CYAN}Prefix: {Fore.BLUE}{prefix}
-                       {Fore.CYAN}Creator: {Fore.BLUE}Taldes#0872
+                       {Fore.CYAN}Creator: {Fore.BLUE}Taldes#1337
     '''+Fore.RESET)
 
 def Clear():
